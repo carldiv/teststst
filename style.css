@@ -1,0 +1,82 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=swap')  */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+font-family: "Changa", sans-serif;
+}
+
+
+body {
+    background-color: rgb(253, 111, 111);
+    user-select: none;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+form {
+    background-color: rgb(245, 159, 180);
+    height:  528px;
+    width: 428px;
+    padding: 50px 35px;
+    position: absolute;
+    border-radius: 20px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: -6px -5px 43px 18px rgba(240, 56, 65, 1);
+}
+form * {
+    color: rgb(58, 54, 54);
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+form h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    line-height: 42px;
+    font-weight: 800;
+}
+
+label {
+    display: block;
+    margin-top: 35px;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+input {
+    display: block;
+    height: 50px;
+    width: 100%;
+    padding: 0 10px;
+    font-size: 1rem;
+    border-radius: 20px;
+    background-color: rgba(190, 10, 10, 0.07);
+
+}
+
+button {
+    display: block;
+    margin-top: 35px;
+    width: 100%;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #fff;
+    background-color: rgb(235, 89, 113);
+} 
+
+
+button:hover {
+    background-color: #fff;
+    color: rgb(235, 89, 113);
+}
